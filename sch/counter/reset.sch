@@ -245,127 +245,6 @@ Text Label 950  2650 0    50   ~ 0
 ~RSTin
 Wire Wire Line
 	6050 1950 6050 1650
-$Comp
-L Jumper:Jumper_3_Open JP2
-U 1 1 5BF758E7
-P 5600 3900
-F 0 "JP2" V 5750 4000 50  0000 L CNN
-F 1 "Jumper_3_Open" V 5555 3986 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5600 3900 50  0001 C CNN
-F 3 "~" H 5600 3900 50  0001 C CNN
-	1    5600 3900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5BF759D9
-P 5900 3900
-AR Path="/5BF759D9" Ref="D?"  Part="1" 
-AR Path="/5BF5D665/5BF759D9" Ref="D94"  Part="1" 
-F 0 "D94" H 5900 4000 50  0000 C CNN
-F 1 "D" H 5900 4025 50  0001 C CNN
-F 2 "Diode_SMD:D_MiniMELF" H 5900 3900 50  0001 C CNN
-F 3 "~" H 5900 3900 50  0001 C CNN
-	1    5900 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_3_Open JP1
-U 1 1 5BF75D5C
-P 5600 3200
-F 0 "JP1" V 5750 3300 50  0000 L CNN
-F 1 "Jumper_3_Open" V 5555 3286 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5600 3200 50  0001 C CNN
-F 3 "~" H 5600 3200 50  0001 C CNN
-	1    5600 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5BF75D63
-P 5900 3200
-AR Path="/5BF75D63" Ref="D?"  Part="1" 
-AR Path="/5BF5D665/5BF75D63" Ref="D93"  Part="1" 
-F 0 "D93" H 5900 3300 50  0000 C CNN
-F 1 "D" H 5900 3325 50  0001 C CNN
-F 2 "Diode_SMD:D_MiniMELF" H 5900 3200 50  0001 C CNN
-F 3 "~" H 5900 3200 50  0001 C CNN
-	1    5900 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_3_Open JP3
-U 1 1 5BF7604B
-P 5600 4700
-F 0 "JP3" V 5750 4800 50  0000 L CNN
-F 1 "Jumper_3_Open" V 5555 4786 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5600 4700 50  0001 C CNN
-F 3 "~" H 5600 4700 50  0001 C CNN
-	1    5600 4700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5BF76052
-P 5900 4700
-AR Path="/5BF76052" Ref="D?"  Part="1" 
-AR Path="/5BF5D665/5BF76052" Ref="D95"  Part="1" 
-F 0 "D95" H 5900 4800 50  0000 C CNN
-F 1 "D" H 5900 4825 50  0001 C CNN
-F 2 "Diode_SMD:D_MiniMELF" H 5900 4700 50  0001 C CNN
-F 3 "~" H 5900 4700 50  0001 C CNN
-	1    5900 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_3_Open JP4
-U 1 1 5BF760E4
-P 5600 5500
-F 0 "JP4" V 5750 5600 50  0000 L CNN
-F 1 "Jumper_3_Open" V 5555 5586 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5600 5500 50  0001 C CNN
-F 3 "~" H 5600 5500 50  0001 C CNN
-	1    5600 5500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5BF760EB
-P 5900 5500
-AR Path="/5BF760EB" Ref="D?"  Part="1" 
-AR Path="/5BF5D665/5BF760EB" Ref="D96"  Part="1" 
-F 0 "D96" H 5900 5600 50  0000 C CNN
-F 1 "D" H 5900 5625 50  0001 C CNN
-F 2 "Diode_SMD:D_MiniMELF" H 5900 5500 50  0001 C CNN
-F 3 "~" H 5900 5500 50  0001 C CNN
-	1    5900 5500
-	1    0    0    -1  
-$EndComp
-Connection ~ 6050 3200
-Wire Wire Line
-	6050 3200 6050 3900
-Connection ~ 6050 3900
-Wire Wire Line
-	6050 3900 6050 4700
-Connection ~ 6050 4700
-Wire Wire Line
-	6050 4700 6050 5500
-Text Label 5600 2950 2    50   ~ 0
-Q1
-Text Label 5600 3450 2    50   ~ 0
-~Q1
-Text Label 5600 3650 2    50   ~ 0
-Q2
-Text Label 5600 4150 2    50   ~ 0
-~Q2
-Text Label 5600 4450 2    50   ~ 0
-Q4
-Text Label 5600 4950 2    50   ~ 0
-~Q4
-Text Label 5600 5250 2    50   ~ 0
-Q8
-Text Label 5600 5750 2    50   ~ 0
-~Q8
 Text HLabel 950  1100 0    50   Input ~ 0
 Q1
 Text HLabel 950  1250 0    50   Input ~ 0
@@ -387,21 +266,13 @@ Text HLabel 950  2450 0    50   Output ~ 0
 Text HLabel 950  2650 0    50   Input ~ 0
 ~RSTin
 Wire Notes Line
-	6200 2900 6400 2900
-Wire Notes Line
-	6400 2900 6400 5700
-Wire Notes Line
-	6400 5700 6200 5700
-Text Notes 6350 5150 1    50   ~ 0
-Do not install if fixed reset value is used
-Wire Notes Line
 	5100 1400 4900 1400
 Wire Notes Line
 	4900 1400 4900 2600
 Wire Notes Line
 	4900 2600 5100 2600
 Text Notes 4850 2850 1    50   ~ 0
-Install only four diodes selecting the reset constant.\nDo not install if jumper selection is used.
+Install only four diodes selecting the reset constant.
 $Comp
 L Device:Q_NMOS_GSD Q?
 U 1 1 5BF5E707
@@ -415,8 +286,6 @@ F 3 "~" H 6250 1950 50  0001 C CNN
 	1    6250 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6050 1950 6050 3200
 Connection ~ 6050 1950
 Wire Wire Line
 	6050 1950 5750 1950
