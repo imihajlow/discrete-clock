@@ -338,132 +338,6 @@ Text Label 3150 2900 0    50   ~ 0
 Cout
 Text Label 3150 3000 0    50   ~ 0
 ~Cout
-$Comp
-L Connector:Conn_01x01_Male J5
-U 1 1 5BF7B786
-P 4750 3550
-F 0 "J5" H 4400 3550 50  0000 C CNN
-F 1 "Q4" H 4650 3550 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 3550 50  0001 C CNN
-F 3 "~" H 4750 3550 50  0001 C CNN
-	1    4750 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J6
-U 1 1 5BF7B88B
-P 4750 3650
-F 0 "J6" H 4400 3650 50  0000 C CNN
-F 1 "~Q4" H 4650 3650 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 3650 50  0001 C CNN
-F 3 "~" H 4750 3650 50  0001 C CNN
-	1    4750 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J7
-U 1 1 5BF7B8AD
-P 4750 3750
-F 0 "J7" H 4400 3750 50  0000 C CNN
-F 1 "Q8" H 4650 3750 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 3750 50  0001 C CNN
-F 3 "~" H 4750 3750 50  0001 C CNN
-	1    4750 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J8
-U 1 1 5BF7B8D1
-P 4750 3850
-F 0 "J8" H 4400 3850 50  0000 C CNN
-F 1 "~Q8" H 4650 3850 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 3850 50  0001 C CNN
-F 3 "~" H 4750 3850 50  0001 C CNN
-	1    4750 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J1
-U 1 1 5BF7BB2C
-P 4750 3150
-F 0 "J1" H 4400 3150 50  0000 C CNN
-F 1 "Q1" H 4650 3150 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 3150 50  0001 C CNN
-F 3 "~" H 4750 3150 50  0001 C CNN
-	1    4750 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J2
-U 1 1 5BF7BB33
-P 4750 3250
-F 0 "J2" H 4400 3250 50  0000 C CNN
-F 1 "~Q1" H 4650 3250 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 3250 50  0001 C CNN
-F 3 "~" H 4750 3250 50  0001 C CNN
-	1    4750 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J3
-U 1 1 5BF7BB3A
-P 4750 3350
-F 0 "J3" H 4400 3350 50  0000 C CNN
-F 1 "Q2" H 4650 3350 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 3350 50  0001 C CNN
-F 3 "~" H 4750 3350 50  0001 C CNN
-	1    4750 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J4
-U 1 1 5BF7BB41
-P 4750 3450
-F 0 "J4" H 4400 3450 50  0000 C CNN
-F 1 "~Q2" H 4650 3450 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 3450 50  0001 C CNN
-F 3 "~" H 4750 3450 50  0001 C CNN
-	1    4750 3450
-	1    0    0    -1  
-$EndComp
-Text Label 4950 3150 0    50   ~ 0
-Q1
-Text Label 4950 3250 0    50   ~ 0
-~Q1
-Text Label 4950 3350 0    50   ~ 0
-Q2
-Text Label 4950 3450 0    50   ~ 0
-~Q2
-Text Label 4950 3550 0    50   ~ 0
-Q4
-Text Label 4950 3650 0    50   ~ 0
-~Q4
-Text Label 4950 3750 0    50   ~ 0
-Q8
-Text Label 4950 3850 0    50   ~ 0
-~Q8
-$Comp
-L Connector:Conn_01x01_Male J9
-U 1 1 5BF7CB30
-P 4750 4050
-F 0 "J9" H 4400 4050 50  0000 C CNN
-F 1 "CLK" H 4650 4050 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 4050 50  0001 C CNN
-F 3 "~" H 4750 4050 50  0001 C CNN
-	1    4750 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J10
-U 1 1 5BF7CC44
-P 4750 4150
-F 0 "J10" H 4400 4150 50  0000 C CNN
-F 1 "~CLK" H 4650 4150 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 4150 50  0001 C CNN
-F 3 "~" H 4750 4150 50  0001 C CNN
-	1    4750 4150
-	1    0    0    -1  
-$EndComp
 Text Label 4950 4050 0    50   ~ 0
 CLK
 Text Label 4950 4150 0    50   ~ 0
@@ -472,7 +346,7 @@ $Comp
 L Connector:Conn_01x01_Male J11
 U 1 1 5BF7CFCF
 P 4750 4350
-F 0 "J11" H 4400 4350 50  0000 C CNN
+F 0 "J11" H 4450 4350 50  0000 C CNN
 F 1 "~RST" H 4650 4350 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 4350 50  0001 C CNN
 F 3 "~" H 4750 4350 50  0001 C CNN
@@ -481,74 +355,30 @@ F 3 "~" H 4750 4350 50  0001 C CNN
 $EndComp
 Text Label 4950 4350 0    50   ~ 0
 ~RSTin
-$Comp
-L Connector:Conn_01x01_Male J12
-U 1 1 5BF7D080
-P 4750 4550
-F 0 "J12" H 4400 4550 50  0000 C CNN
-F 1 "Cout" H 4650 4550 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 4550 50  0001 C CNN
-F 3 "~" H 4750 4550 50  0001 C CNN
-	1    4750 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J13
-U 1 1 5BF7D0E5
-P 4750 4650
-F 0 "J13" H 4400 4650 50  0000 C CNN
-F 1 "~Cout" H 4650 4650 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 4650 50  0001 C CNN
-F 3 "~" H 4750 4650 50  0001 C CNN
-	1    4750 4650
-	1    0    0    -1  
-$EndComp
-Text Label 4950 4550 0    50   ~ 0
+Text Label 4950 4700 0    50   ~ 0
 Cout
-Text Label 4950 4650 0    50   ~ 0
+Text Label 4950 4800 0    50   ~ 0
 ~Cout
-$Comp
-L Connector:Conn_01x01_Male J14
-U 1 1 5BF7D641
-P 4750 4850
-F 0 "J14" H 4400 4850 50  0000 C CNN
-F 1 "Vcc" H 4650 4850 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 4850 50  0001 C CNN
-F 3 "~" H 4750 4850 50  0001 C CNN
-	1    4750 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J15
-U 1 1 5BF7D6B0
-P 4750 4950
-F 0 "J15" H 4400 4950 50  0000 C CNN
-F 1 "GND" H 4650 4950 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 4950 50  0001 C CNN
-F 3 "~" H 4750 4950 50  0001 C CNN
-	1    4750 4950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VCC #PWR01
 U 1 1 5BF7D77B
-P 4950 4850
-F 0 "#PWR01" H 4950 4700 50  0001 C CNN
-F 1 "VCC" V 4967 4978 50  0000 L CNN
-F 2 "" H 4950 4850 50  0001 C CNN
-F 3 "" H 4950 4850 50  0001 C CNN
-	1    4950 4850
+P 4950 5150
+F 0 "#PWR01" H 4950 5000 50  0001 C CNN
+F 1 "VCC" V 4967 5278 50  0000 L CNN
+F 2 "" H 4950 5150 50  0001 C CNN
+F 3 "" H 4950 5150 50  0001 C CNN
+	1    4950 5150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5BF7D85C
-P 4950 4950
-F 0 "#PWR02" H 4950 4700 50  0001 C CNN
-F 1 "GND" V 4955 4822 50  0000 R CNN
-F 2 "" H 4950 4950 50  0001 C CNN
-F 3 "" H 4950 4950 50  0001 C CNN
-	1    4950 4950
+P 4950 5250
+F 0 "#PWR02" H 4950 5000 50  0001 C CNN
+F 1 "GND" V 4955 5122 50  0000 R CNN
+F 2 "" H 4950 5250 50  0001 C CNN
+F 3 "" H 4950 5250 50  0001 C CNN
+	1    4950 5250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -651,4 +481,64 @@ Wire Wire Line
 	8000 4700 8150 4700
 Text Notes 950  7000 0    50   ~ 0
 Logical levels: 0 - short to GND, 1 - High-Z. All outputs are open-drain.
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J4
+U 1 1 5C03C443
+P 4850 3300
+F 0 "J4" H 4900 3617 50  0000 C CNN
+F 1 "Q" H 4900 3526 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 4850 3300 50  0001 C CNN
+F 3 "~" H 4850 3300 50  0001 C CNN
+	1    4850 3300
+	1    0    0    -1  
+$EndComp
+Text Label 4650 3200 2    50   ~ 0
+Q1
+Text Label 4650 3300 2    50   ~ 0
+Q2
+Text Label 4650 3400 2    50   ~ 0
+Q4
+Text Label 4650 3500 2    50   ~ 0
+Q8
+Text Label 5150 3200 0    50   ~ 0
+~Q1
+Text Label 5150 3300 0    50   ~ 0
+~Q2
+Text Label 5150 3400 0    50   ~ 0
+~Q4
+Text Label 5150 3500 0    50   ~ 0
+~Q8
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5C03C735
+P 4750 4050
+F 0 "J1" H 4650 4050 50  0000 C CNN
+F 1 "CLK" H 4650 3950 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4750 4050 50  0001 C CNN
+F 3 "~" H 4750 4050 50  0001 C CNN
+	1    4750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5C03C871
+P 4750 4700
+F 0 "J2" H 4650 4700 50  0000 C CNN
+F 1 "Carry" H 4600 4600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4750 4700 50  0001 C CNN
+F 3 "~" H 4750 4700 50  0001 C CNN
+	1    4750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5C03C971
+P 4750 5150
+F 0 "J3" H 4650 5150 50  0000 C CNN
+F 1 "Power" H 4600 5050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4750 5150 50  0001 C CNN
+F 3 "~" H 4750 5150 50  0001 C CNN
+	1    4750 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
