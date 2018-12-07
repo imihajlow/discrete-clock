@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 7)
     (tracks 643)
     (zones 0)
     (modules 166)
@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFF9FF7F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -214,10 +214,10 @@
     (descr "Through hole straight IDC box header, 2x04, 2.54mm pitch, double rows")
     (tags "Through hole IDC box header THT 2x04 2.54mm double row")
     (path /5C0BFA25)
-    (fp_text reference J1 (at 1.27 6.604 90) (layer B.SilkS)
+    (fp_text reference J1 (at 1.27 6.604 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value In (at 1.27 -14.224 90) (layer B.Fab)
+    (fp_text value In (at 1.27 -14.224 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 1.27 -3.81 90) (layer B.Fab)
@@ -277,10 +277,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EFC7)
     (attr smd)
-    (fp_text reference D53 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D53 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -321,10 +321,10 @@
     (tags capacitor)
     (path /5C0CBF0B)
     (attr smd)
-    (fp_text reference C1 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference C1 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1u (at 0 1.65) (layer F.Fab)
+    (fp_text value 0.1u (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -357,10 +357,10 @@
     (tags "capacitor tantalum")
     (path /5C0CC1DF)
     (attr smd)
-    (fp_text reference C2 (at 0 -2.35) (layer F.SilkS)
+    (fp_text reference C2 (at 0 -2.35) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "16u 10v" (at 0 2.35) (layer F.Fab)
+    (fp_text value "16u 10v" (at 0 2.35) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.75 -1.4) (end -1.05 -1.4) (layer F.Fab) (width 0.1))
@@ -395,10 +395,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06D77B)
     (attr smd)
-    (fp_text reference D1 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D1 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -439,10 +439,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06D7E0)
     (attr smd)
-    (fp_text reference D2 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D2 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -483,10 +483,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06D7F5)
     (attr smd)
-    (fp_text reference D3 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D3 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -527,10 +527,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06D80C)
     (attr smd)
-    (fp_text reference D4 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D4 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -571,10 +571,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EF3A)
     (attr smd)
-    (fp_text reference D5 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D5 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -615,10 +615,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EF41)
     (attr smd)
-    (fp_text reference D6 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D6 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -659,10 +659,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EF48)
     (attr smd)
-    (fp_text reference D7 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D7 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -703,10 +703,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EF4F)
     (attr smd)
-    (fp_text reference D8 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D8 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -747,10 +747,10 @@
     (tags "Diode Mini-MELF")
     (path /5C078D62)
     (attr smd)
-    (fp_text reference D9 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D9 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -791,10 +791,10 @@
     (tags "Diode Mini-MELF")
     (path /5C079698)
     (attr smd)
-    (fp_text reference D10 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D10 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -835,10 +835,10 @@
     (tags "Diode Mini-MELF")
     (path /5C079741)
     (attr smd)
-    (fp_text reference D11 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D11 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -879,10 +879,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0797E8)
     (attr smd)
-    (fp_text reference D12 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D12 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -923,10 +923,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07988F)
     (attr smd)
-    (fp_text reference D13 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D13 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -967,10 +967,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07AC40)
     (attr smd)
-    (fp_text reference D14 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D14 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -1011,10 +1011,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0ACD3F)
     (attr smd)
-    (fp_text reference D15 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D15 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -1055,10 +1055,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0ACD46)
     (attr smd)
-    (fp_text reference D16 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D16 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -1099,10 +1099,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0ACD4D)
     (attr smd)
-    (fp_text reference D17 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D17 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -1143,10 +1143,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0ACD54)
     (attr smd)
-    (fp_text reference D18 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D18 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -1187,10 +1187,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0ACD5B)
     (attr smd)
-    (fp_text reference D19 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D19 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -1231,10 +1231,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0ACD62)
     (attr smd)
-    (fp_text reference D20 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D20 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -1275,10 +1275,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0880F5)
     (attr smd)
-    (fp_text reference D21 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D21 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -1319,10 +1319,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06DE9E)
     (attr smd)
-    (fp_text reference D22 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D22 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -1363,10 +1363,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06DEA5)
     (attr smd)
-    (fp_text reference D23 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D23 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -1407,10 +1407,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06DEAC)
     (attr smd)
-    (fp_text reference D24 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D24 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -1451,10 +1451,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06DEB3)
     (attr smd)
-    (fp_text reference D25 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D25 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -1495,10 +1495,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EF76)
     (attr smd)
-    (fp_text reference D26 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D26 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -1539,10 +1539,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EF7D)
     (attr smd)
-    (fp_text reference D27 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D27 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -1583,10 +1583,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EF84)
     (attr smd)
-    (fp_text reference D28 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D28 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -1627,10 +1627,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EF8B)
     (attr smd)
-    (fp_text reference D29 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D29 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -1671,10 +1671,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07A737)
     (attr smd)
-    (fp_text reference D30 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D30 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -1715,10 +1715,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07A7F4)
     (attr smd)
-    (fp_text reference D31 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D31 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -1759,10 +1759,10 @@
     (tags "Diode Mini-MELF")
     (path /5C083E63)
     (attr smd)
-    (fp_text reference D32 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D32 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -1803,10 +1803,10 @@
     (tags "Diode Mini-MELF")
     (path /5C083E6A)
     (attr smd)
-    (fp_text reference D33 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D33 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -1847,10 +1847,10 @@
     (tags "Diode Mini-MELF")
     (path /5C083E7F)
     (attr smd)
-    (fp_text reference D34 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D34 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -1891,10 +1891,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07A8A5)
     (attr smd)
-    (fp_text reference D35 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D35 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -1935,10 +1935,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07A964)
     (attr smd)
-    (fp_text reference D36 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D36 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -1979,10 +1979,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07AA1B)
     (attr smd)
-    (fp_text reference D37 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D37 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -2023,10 +2023,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07AAD0)
     (attr smd)
-    (fp_text reference D38 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D38 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -2067,10 +2067,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07AB89)
     (attr smd)
-    (fp_text reference D39 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D39 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -2111,10 +2111,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06DFA3)
     (attr smd)
-    (fp_text reference D46 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D46 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -2155,10 +2155,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06DFAA)
     (attr smd)
-    (fp_text reference D47 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D47 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -2199,10 +2199,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06DFB1)
     (attr smd)
-    (fp_text reference D48 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D48 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -2243,10 +2243,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06DFB8)
     (attr smd)
-    (fp_text reference D49 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D49 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -2287,10 +2287,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EFB2)
     (attr smd)
-    (fp_text reference D50 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D50 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -2331,10 +2331,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EFB9)
     (attr smd)
-    (fp_text reference D51 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D51 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -2375,10 +2375,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EFC0)
     (attr smd)
-    (fp_text reference D52 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D52 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -2419,10 +2419,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07CB24)
     (attr smd)
-    (fp_text reference D54 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D54 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -2463,10 +2463,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07CB2B)
     (attr smd)
-    (fp_text reference D55 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D55 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -2507,10 +2507,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07CB32)
     (attr smd)
-    (fp_text reference D56 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D56 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -2551,10 +2551,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07CB39)
     (attr smd)
-    (fp_text reference D57 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D57 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -2595,10 +2595,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07CB40)
     (attr smd)
-    (fp_text reference D58 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D58 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -2639,10 +2639,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07D98F)
     (attr smd)
-    (fp_text reference D59 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D59 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -2683,10 +2683,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07D996)
     (attr smd)
-    (fp_text reference D60 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D60 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -2727,10 +2727,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07D99D)
     (attr smd)
-    (fp_text reference D61 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D61 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -2771,10 +2771,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07D9A4)
     (attr smd)
-    (fp_text reference D62 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D62 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -2815,10 +2815,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E2D6)
     (attr smd)
-    (fp_text reference D63 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D63 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -2859,10 +2859,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E2DD)
     (attr smd)
-    (fp_text reference D64 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D64 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -2903,10 +2903,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E2E4)
     (attr smd)
-    (fp_text reference D65 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D65 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -2947,10 +2947,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E2EB)
     (attr smd)
-    (fp_text reference D66 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D66 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -2991,10 +2991,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EFEE)
     (attr smd)
-    (fp_text reference D67 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D67 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -3035,10 +3035,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EFF5)
     (attr smd)
-    (fp_text reference D68 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D68 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -3079,10 +3079,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06EFFC)
     (attr smd)
-    (fp_text reference D69 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D69 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -3123,10 +3123,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06F003)
     (attr smd)
-    (fp_text reference D70 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D70 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -3167,10 +3167,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07E7E1)
     (attr smd)
-    (fp_text reference D71 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D71 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -3211,10 +3211,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07E7E8)
     (attr smd)
-    (fp_text reference D72 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D72 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -3255,10 +3255,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07E7EF)
     (attr smd)
-    (fp_text reference D73 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D73 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -3299,10 +3299,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07E7F6)
     (attr smd)
-    (fp_text reference D74 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D74 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -3343,10 +3343,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07E7FD)
     (attr smd)
-    (fp_text reference D75 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D75 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -3387,10 +3387,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07F64C)
     (attr smd)
-    (fp_text reference D76 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D76 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -3431,10 +3431,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07F653)
     (attr smd)
-    (fp_text reference D77 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D77 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -3475,10 +3475,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07F65A)
     (attr smd)
-    (fp_text reference D78 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D78 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -3519,10 +3519,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07F661)
     (attr smd)
-    (fp_text reference D79 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D79 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -3563,10 +3563,10 @@
     (tags "Diode Mini-MELF")
     (path /5C07F668)
     (attr smd)
-    (fp_text reference D80 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D80 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -3607,10 +3607,10 @@
     (tags "Diode Mini-MELF")
     (path /5C085C8D)
     (attr smd)
-    (fp_text reference D81 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D81 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -3651,10 +3651,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E6F4)
     (attr smd)
-    (fp_text reference D82 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D82 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -3695,10 +3695,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E6FB)
     (attr smd)
-    (fp_text reference D83 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D83 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -3739,10 +3739,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E702)
     (attr smd)
-    (fp_text reference D84 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D84 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -3783,10 +3783,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E709)
     (attr smd)
-    (fp_text reference D85 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D85 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -3827,10 +3827,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0804A8)
     (attr smd)
-    (fp_text reference D86 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D86 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -3871,10 +3871,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0804AF)
     (attr smd)
-    (fp_text reference D87 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D87 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -3915,10 +3915,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0804B6)
     (attr smd)
-    (fp_text reference D88 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D88 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -3959,10 +3959,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0812D7)
     (attr smd)
-    (fp_text reference D89 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D89 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4003,10 +4003,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0812DE)
     (attr smd)
-    (fp_text reference D90 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D90 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -4047,10 +4047,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0812E5)
     (attr smd)
-    (fp_text reference D91 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D91 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4091,10 +4091,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0812EC)
     (attr smd)
-    (fp_text reference D92 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D92 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -4135,10 +4135,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0812F3)
     (attr smd)
-    (fp_text reference D93 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D93 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4179,10 +4179,10 @@
     (tags "Diode Mini-MELF")
     (path /5C087C72)
     (attr smd)
-    (fp_text reference D94 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D94 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4223,10 +4223,10 @@
     (tags "Diode Mini-MELF")
     (path /5C087D8D)
     (attr smd)
-    (fp_text reference D95 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D95 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -4267,10 +4267,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E730)
     (attr smd)
-    (fp_text reference D96 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D96 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4311,10 +4311,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E737)
     (attr smd)
-    (fp_text reference D97 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D97 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -4355,10 +4355,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E73E)
     (attr smd)
-    (fp_text reference D98 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D98 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4399,10 +4399,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E745)
     (attr smd)
-    (fp_text reference D99 (at 0 -2) (layer F.SilkS)
+    (fp_text reference D99 (at 0 -2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75) (layer F.Fab)
+    (fp_text value D (at 0 1.75) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2) (layer F.Fab)
@@ -4443,10 +4443,10 @@
     (tags "Diode Mini-MELF")
     (path /5C08212E)
     (attr smd)
-    (fp_text reference D100 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D100 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -4487,10 +4487,10 @@
     (tags "Diode Mini-MELF")
     (path /5C082135)
     (attr smd)
-    (fp_text reference D101 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D101 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4531,10 +4531,10 @@
     (tags "Diode Mini-MELF")
     (path /5C08213C)
     (attr smd)
-    (fp_text reference D102 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D102 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -4575,10 +4575,10 @@
     (tags "Diode Mini-MELF")
     (path /5C082143)
     (attr smd)
-    (fp_text reference D103 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D103 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4619,10 +4619,10 @@
     (tags "Diode Mini-MELF")
     (path /5C08214A)
     (attr smd)
-    (fp_text reference D104 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D104 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 90) (layer F.Fab)
@@ -4663,10 +4663,10 @@
     (tags "Diode Mini-MELF")
     (path /5C087EAA)
     (attr smd)
-    (fp_text reference D105 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference D105 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 90) (layer F.Fab)
+    (fp_text value D (at 0 1.75 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4707,10 +4707,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E76C)
     (attr smd)
-    (fp_text reference D106 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D106 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4751,10 +4751,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E773)
     (attr smd)
-    (fp_text reference D107 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D107 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -4795,10 +4795,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E77A)
     (attr smd)
-    (fp_text reference D108 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D108 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4839,10 +4839,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E781)
     (attr smd)
-    (fp_text reference D109 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D109 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -4883,10 +4883,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E7A8)
     (attr smd)
-    (fp_text reference D110 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D110 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -4927,10 +4927,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E7AF)
     (attr smd)
-    (fp_text reference D111 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D111 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -4971,10 +4971,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E7B6)
     (attr smd)
-    (fp_text reference D112 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D112 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -5015,10 +5015,10 @@
     (tags "Diode Mini-MELF")
     (path /5C06E7BD)
     (attr smd)
-    (fp_text reference D113 (at 0 -2 180) (layer F.SilkS)
+    (fp_text reference D113 (at 0 -2 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 180) (layer F.Fab)
+    (fp_text value D (at 0 1.75 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 180) (layer F.Fab)
@@ -5058,10 +5058,10 @@
     (descr "Through hole straight IDC box header, 2x04, 2.54mm pitch, double rows")
     (tags "Through hole IDC box header THT 2x04 2.54mm double row")
     (path /5C0C0221)
-    (fp_text reference J2 (at 1.27 6.604 270) (layer B.SilkS)
+    (fp_text reference J2 (at 1.27 6.604 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Out (at 1.27 -14.224 270) (layer B.Fab)
+    (fp_text value Out (at 1.27 -14.224 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -3.655 5.6) (end -1.115 5.6) (layer B.SilkS) (width 0.12))
@@ -5120,10 +5120,10 @@
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5C0C04AD)
-    (fp_text reference J3 (at 0 2.33 270) (layer B.SilkS)
+    (fp_text reference J3 (at 0 2.33 270) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Power (at 0 -4.87 270) (layer B.Fab)
+    (fp_text value Power (at 0 -4.87 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -0.635 1.27) (end 1.27 1.27) (layer B.Fab) (width 0.1))
@@ -5161,10 +5161,10 @@
     (tags SOT-23)
     (path /5C06D6DC)
     (attr smd)
-    (fp_text reference Q1 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q1 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -5202,10 +5202,10 @@
     (tags SOT-23)
     (path /5C06EF33)
     (attr smd)
-    (fp_text reference Q2 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q2 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -5243,10 +5243,10 @@
     (tags SOT-23)
     (path /5C06DE97)
     (attr smd)
-    (fp_text reference Q3 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q3 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -5284,10 +5284,10 @@
     (tags SOT-23)
     (path /5C06EF6F)
     (attr smd)
-    (fp_text reference Q4 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q4 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -5325,10 +5325,10 @@
     (tags SOT-23)
     (path /5C06DF9C)
     (attr smd)
-    (fp_text reference Q5 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q5 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -5366,10 +5366,10 @@
     (tags SOT-23)
     (path /5C06EFAB)
     (attr smd)
-    (fp_text reference Q6 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q6 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -5407,10 +5407,10 @@
     (tags SOT-23)
     (path /5C06E2CF)
     (attr smd)
-    (fp_text reference Q7 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q7 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -5448,10 +5448,10 @@
     (tags SOT-23)
     (path /5C06EFE7)
     (attr smd)
-    (fp_text reference Q8 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q8 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -5489,10 +5489,10 @@
     (tags SOT-23)
     (path /5C06E6ED)
     (attr smd)
-    (fp_text reference Q9 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q9 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -5530,10 +5530,10 @@
     (tags SOT-23)
     (path /5C06E729)
     (attr smd)
-    (fp_text reference Q10 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q10 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 90) (layer F.Fab)
@@ -5571,10 +5571,10 @@
     (tags SOT-23)
     (path /5C06E765)
     (attr smd)
-    (fp_text reference Q11 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q11 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -5612,10 +5612,10 @@
     (tags SOT-23)
     (path /5C06E7A1)
     (attr smd)
-    (fp_text reference Q12 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference Q12 (at 0 -2.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab)
+    (fp_text value 2N7002 (at 0 2.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0.76 1.58) (end -0.7 1.58) (layer F.SilkS) (width 0.12))
@@ -5653,10 +5653,10 @@
     (tags resistor)
     (path /5C06D868)
     (attr smd)
-    (fp_text reference R1 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R1 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -5689,10 +5689,10 @@
     (tags resistor)
     (path /5C06EF5C)
     (attr smd)
-    (fp_text reference R2 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R2 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -5725,10 +5725,10 @@
     (tags resistor)
     (path /5C06DEC0)
     (attr smd)
-    (fp_text reference R3 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R3 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -5761,10 +5761,10 @@
     (tags resistor)
     (path /5C06EF98)
     (attr smd)
-    (fp_text reference R4 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R4 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -5797,10 +5797,10 @@
     (tags resistor)
     (path /5C06DFC5)
     (attr smd)
-    (fp_text reference R5 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R5 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -5833,10 +5833,10 @@
     (tags resistor)
     (path /5C06EFD4)
     (attr smd)
-    (fp_text reference R6 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R6 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -5869,10 +5869,10 @@
     (tags resistor)
     (path /5C06E2F8)
     (attr smd)
-    (fp_text reference R7 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R7 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -5905,10 +5905,10 @@
     (tags resistor)
     (path /5C06F010)
     (attr smd)
-    (fp_text reference R8 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R8 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -5941,10 +5941,10 @@
     (tags resistor)
     (path /5C06E716)
     (attr smd)
-    (fp_text reference R9 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R9 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -5977,10 +5977,10 @@
     (tags resistor)
     (path /5C06E752)
     (attr smd)
-    (fp_text reference R10 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R10 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -6013,10 +6013,10 @@
     (tags resistor)
     (path /5C06E78E)
     (attr smd)
-    (fp_text reference R11 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R11 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -6049,10 +6049,10 @@
     (tags resistor)
     (path /5C06E7CA)
     (attr smd)
-    (fp_text reference R12 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R12 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 20k (at 0 1.65) (layer F.Fab)
+    (fp_text value 20k (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -6085,10 +6085,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0A9850)
     (attr smd)
-    (fp_text reference D114 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D114 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.65 1.1) (end -2.65 -1.1) (layer F.CrtYd) (width 0.05))
@@ -6129,10 +6129,10 @@
     (tags "Diode Mini-MELF")
     (path /5C0A9993)
     (attr smd)
-    (fp_text reference D115 (at 0 -2 270) (layer F.SilkS)
+    (fp_text reference D115 (at 0 -2 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value D (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D (at 0 1.75 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -2 270) (layer F.Fab)
@@ -6173,10 +6173,10 @@
     (tags diode)
     (path /5C0EA798)
     (attr smd)
-    (fp_text reference D40 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference D40 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65) (layer F.Fab)
+    (fp_text value LED (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -6211,10 +6211,10 @@
     (tags diode)
     (path /5C0EA784)
     (attr smd)
-    (fp_text reference D41 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference D41 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65) (layer F.Fab)
+    (fp_text value LED (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1 -0.6) (end -0.7 -0.6) (layer F.Fab) (width 0.1))
@@ -6249,10 +6249,10 @@
     (tags diode)
     (path /5C0EA7AC)
     (attr smd)
-    (fp_text reference D42 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference D42 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65) (layer F.Fab)
+    (fp_text value LED (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1 -0.6) (end -0.7 -0.6) (layer F.Fab) (width 0.1))
@@ -6287,10 +6287,10 @@
     (tags diode)
     (path /5C0E2D97)
     (attr smd)
-    (fp_text reference D43 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference D43 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65) (layer F.Fab)
+    (fp_text value LED (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1 -0.6) (end -0.7 -0.6) (layer F.Fab) (width 0.1))
@@ -6325,10 +6325,10 @@
     (tags diode)
     (path /5C0D6C64)
     (attr smd)
-    (fp_text reference D44 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference D44 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65) (layer F.Fab)
+    (fp_text value LED (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -6363,10 +6363,10 @@
     (tags diode)
     (path /5C0E69E1)
     (attr smd)
-    (fp_text reference D45 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference D45 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65) (layer F.Fab)
+    (fp_text value LED (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -6401,10 +6401,10 @@
     (tags diode)
     (path /5C0F263A)
     (attr smd)
-    (fp_text reference D116 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference D116 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65 180) (layer F.Fab)
+    (fp_text value LED (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -6439,10 +6439,10 @@
     (tags diode)
     (path /5C0F2626)
     (attr smd)
-    (fp_text reference D117 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference D117 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65 180) (layer F.Fab)
+    (fp_text value LED (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1 -0.6) (end -0.7 -0.6) (layer F.Fab) (width 0.1))
@@ -6477,10 +6477,10 @@
     (tags diode)
     (path /5C0F264E)
     (attr smd)
-    (fp_text reference D118 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference D118 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65 180) (layer F.Fab)
+    (fp_text value LED (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1 -0.6) (end -0.7 -0.6) (layer F.Fab) (width 0.1))
@@ -6515,10 +6515,10 @@
     (tags diode)
     (path /5C0F25FE)
     (attr smd)
-    (fp_text reference D119 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference D119 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65 180) (layer F.Fab)
+    (fp_text value LED (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1 -0.6) (end -0.7 -0.6) (layer F.Fab) (width 0.1))
@@ -6553,10 +6553,10 @@
     (tags diode)
     (path /5C0F25EA)
     (attr smd)
-    (fp_text reference D120 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference D120 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65 180) (layer F.Fab)
+    (fp_text value LED (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -6591,10 +6591,10 @@
     (tags diode)
     (path /5C0F2612)
     (attr smd)
-    (fp_text reference D121 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference D121 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED (at 0 1.65 180) (layer F.Fab)
+    (fp_text value LED (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -6629,10 +6629,10 @@
     (tags "mounting hole 3.2mm m3 din965")
     (path /5C0FCC9E)
     (attr virtual)
-    (fp_text reference H1 (at 0 -3.8) (layer F.SilkS)
+    (fp_text reference H1 (at 0 -3.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole (at 0 3.8) (layer F.Fab)
+    (fp_text value MountingHole (at 0 3.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.3 0) (layer F.Fab)
@@ -6649,10 +6649,10 @@
     (tags "mounting hole 3.2mm m3 din965")
     (path /5C0FCB44)
     (attr virtual)
-    (fp_text reference H2 (at 0 -3.8) (layer F.SilkS)
+    (fp_text reference H2 (at 0 -3.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole (at 0 3.8) (layer F.Fab)
+    (fp_text value MountingHole (at 0 3.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.05 0) (layer F.CrtYd) (width 0.05))
@@ -6669,10 +6669,10 @@
     (tags "mounting hole 3.2mm m3 din965")
     (path /5C0FC9D3)
     (attr virtual)
-    (fp_text reference H3 (at 0 -3.8) (layer F.SilkS)
+    (fp_text reference H3 (at 0 -3.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole (at 0 3.8) (layer F.Fab)
+    (fp_text value MountingHole (at 0 3.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0.3 0) (layer F.Fab)
@@ -6689,10 +6689,10 @@
     (tags "mounting hole 3.2mm m3 din965")
     (path /5C0FBCC6)
     (attr virtual)
-    (fp_text reference H4 (at 0 -3.8) (layer F.SilkS)
+    (fp_text reference H4 (at 0 -3.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole (at 0 3.8) (layer F.Fab)
+    (fp_text value MountingHole (at 0 3.8) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.05 0) (layer F.CrtYd) (width 0.05))
@@ -6709,10 +6709,10 @@
     (tags resistor)
     (path /5C0EA79F)
     (attr smd)
-    (fp_text reference R13 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R13 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -6745,10 +6745,10 @@
     (tags resistor)
     (path /5C0EA78B)
     (attr smd)
-    (fp_text reference R14 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R14 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -6781,10 +6781,10 @@
     (tags resistor)
     (path /5C0EA7B3)
     (attr smd)
-    (fp_text reference R15 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R15 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -6817,10 +6817,10 @@
     (tags resistor)
     (path /5C0E2D9E)
     (attr smd)
-    (fp_text reference R16 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R16 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -6853,10 +6853,10 @@
     (tags resistor)
     (path /5C0DE840)
     (attr smd)
-    (fp_text reference R17 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R17 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -6889,10 +6889,10 @@
     (tags resistor)
     (path /5C0E69E8)
     (attr smd)
-    (fp_text reference R18 (at 0 -1.65 180) (layer F.SilkS)
+    (fp_text reference R18 (at 0 -1.65 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65 180) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 180) (layer F.Fab)
@@ -6925,10 +6925,10 @@
     (tags resistor)
     (path /5C0F2641)
     (attr smd)
-    (fp_text reference R19 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R19 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -6961,10 +6961,10 @@
     (tags resistor)
     (path /5C0F262D)
     (attr smd)
-    (fp_text reference R20 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R20 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -6997,10 +6997,10 @@
     (tags resistor)
     (path /5C0F2655)
     (attr smd)
-    (fp_text reference R21 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R21 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -7033,10 +7033,10 @@
     (tags resistor)
     (path /5C0F2605)
     (attr smd)
-    (fp_text reference R22 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R22 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
@@ -7069,10 +7069,10 @@
     (tags resistor)
     (path /5C0F25F1)
     (attr smd)
-    (fp_text reference R23 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R23 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -7105,10 +7105,10 @@
     (tags resistor)
     (path /5C0F2619)
     (attr smd)
-    (fp_text reference R24 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R24 (at 0 -1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 50 (at 0 1.65) (layer F.Fab)
+    (fp_text value 50 (at 0 1.65) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0) (layer F.Fab)
@@ -7135,6 +7135,15 @@
     )
   )
 
+  (gr_text IN (at 116 119 90) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text OUT (at 115 40 90) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text "- +" (at 141 43) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_line (start 100 34) (end 153 34) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 100 125) (end 100 34) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 153 125) (end 100 125) (layer Edge.Cuts) (width 0.2))
