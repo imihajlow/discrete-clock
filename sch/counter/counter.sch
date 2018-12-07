@@ -342,17 +342,6 @@ Text Label 4950 4050 0    50   ~ 0
 CLK
 Text Label 4950 4150 0    50   ~ 0
 ~CLK
-$Comp
-L Connector:Conn_01x01_Male J11
-U 1 1 5BF7CFCF
-P 4750 4350
-F 0 "J11" H 4450 4350 50  0000 C CNN
-F 1 "~RST" H 4650 4350 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 4750 4350 50  0001 C CNN
-F 3 "~" H 4750 4350 50  0001 C CNN
-	1    4750 4350
-	1    0    0    -1  
-$EndComp
 Text Label 4950 4350 0    50   ~ 0
 ~RSTin
 Text Label 4950 4700 0    50   ~ 0
@@ -539,6 +528,67 @@ F 1 "Power" H 4600 5050 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4750 5150 50  0001 C CNN
 F 3 "~" H 4750 5150 50  0001 C CNN
 	1    4750 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5C11CC62
+P 10800 3400
+F 0 "H1" H 10900 3405 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10900 3360 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10800 3400 50  0001 C CNN
+F 3 "~" H 10800 3400 50  0001 C CNN
+	1    10800 3400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10800 3500
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5C11D0D6
+P 10800 3700
+F 0 "H2" H 10900 3705 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10900 3660 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10800 3700 50  0001 C CNN
+F 3 "~" H 10800 3700 50  0001 C CNN
+	1    10800 3700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10800 3800
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5C11D35C
+P 10800 4000
+F 0 "H3" H 10900 4005 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10900 3960 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10800 4000 50  0001 C CNN
+F 3 "~" H 10800 4000 50  0001 C CNN
+	1    10800 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10800 4100
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5C11D5E3
+P 10800 4350
+F 0 "H4" H 10900 4355 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10900 4310 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 10800 4350 50  0001 C CNN
+F 3 "~" H 10800 4350 50  0001 C CNN
+	1    10800 4350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10800 4450
+Text Label 4950 4450 0    50   ~ 0
+~RSTin
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5C11F53F
+P 4750 4350
+F 0 "J5" H 4650 4350 50  0000 C CNN
+F 1 "~RST" H 4650 4250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4750 4350 50  0001 C CNN
+F 3 "~" H 4750 4350 50  0001 C CNN
+	1    4750 4350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
