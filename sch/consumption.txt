@@ -1,0 +1,15 @@
+5v load:
+- display: 9x20k, 1x200k = 2.5 mA < 10 mA
+- counter: 4xLED, 34x20k, 4x10k = 90.5 mA < 100 mA
+- decoder: 12x20k, 12xLED = 243 mA < 300 mA
+
+LED = 20mA
+20k = 250uA
+200k = 25uA
+10k = 50uA
+
+1 x display = 10 mA
+7 x counter = 700 mA
+3 x decoder = 900 mA
+
+Total < 2A
