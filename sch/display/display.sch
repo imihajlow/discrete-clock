@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -20,7 +20,7 @@ U 1 1 5C127571
 P 3550 1500
 F 0 "U1" H 3550 2167 50  0000 C CNN
 F 1 "SA23-12EWA" H 3550 2076 50  0000 C CNN
-F 2 "lib:SA23-12EWA" H 3550 900 50  0001 C CNN
+F 2 "lib:SA10-21HWA" H 3550 900 50  0001 C CNN
 F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf" H 3050 1975 50  0001 L CNN
 	1    3550 1500
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5C1275F1
 P 4400 1500
 F 0 "U2" H 4400 2167 50  0000 C CNN
 F 1 "SA23-12EWA" H 4400 2076 50  0000 C CNN
-F 2 "lib:SA23-12EWA" H 4400 900 50  0001 C CNN
+F 2 "lib:SA10-21HWA" H 4400 900 50  0001 C CNN
 F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf" H 3900 1975 50  0001 L CNN
 	1    4400 1500
 	1    0    0    -1  
@@ -42,7 +42,7 @@ U 1 1 5C127616
 P 5250 1500
 F 0 "U3" H 5250 2167 50  0000 C CNN
 F 1 "SA23-12EWA" H 5250 2076 50  0000 C CNN
-F 2 "lib:SA23-12EWA" H 5250 900 50  0001 C CNN
+F 2 "lib:SA10-21HWA" H 5250 900 50  0001 C CNN
 F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf" H 4750 1975 50  0001 L CNN
 	1    5250 1500
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5C12763C
 P 6150 1500
 F 0 "U4" H 6150 2167 50  0000 C CNN
 F 1 "SA23-12EWA" H 6150 2076 50  0000 C CNN
-F 2 "lib:SA23-12EWA" H 6150 900 50  0001 C CNN
+F 2 "lib:SA10-21HWA" H 6150 900 50  0001 C CNN
 F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf" H 5650 1975 50  0001 L CNN
 	1    6150 1500
 	1    0    0    -1  
@@ -479,14 +479,6 @@ Text Label 5950 3600 0    50   ~ 0
 D4_f
 Text Label 4850 3700 2    50   ~ 0
 D4_g
-$Sheet
-S 1200 1050 750  650 
-U 5C130866
-F0 "PWM" 50
-F1 "pwm.sch" 50
-F2 "Out" O R 1950 1200 50 
-F3 "Vin" I L 1200 1200 50 
-$EndSheet
 Wire Wire Line
 	1950 1200 2400 1200
 Wire Wire Line
@@ -712,7 +704,7 @@ U 1 1 5C14596D
 P 8900 5600
 F 0 "C2" H 8650 5600 50  0000 L CNN
 F 1 "10u x 16v" H 8400 5500 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x4.5" H 8938 5450 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder" H 8938 5450 50  0001 C CNN
 F 3 "~" H 8900 5600 50  0001 C CNN
 	1    8900 5600
 	1    0    0    -1  
@@ -1003,21 +995,21 @@ F 3 "" H 9800 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VAA #PWR?
+L power:VAA #PWR01
 U 1 1 5C32D65B
-P 1200 1200
-F 0 "#PWR?" H 1200 1050 50  0001 C CNN
-F 1 "VAA" V 1218 1327 50  0000 L CNN
-F 2 "" H 1200 1200 50  0001 C CNN
-F 3 "" H 1200 1200 50  0001 C CNN
-	1    1200 1200
+P 1950 1200
+F 0 "#PWR01" H 1950 1050 50  0001 C CNN
+F 1 "VAA" V 1968 1327 50  0000 L CNN
+F 2 "" H 1950 1200 50  0001 C CNN
+F 3 "" H 1950 1200 50  0001 C CNN
+	1    1950 1200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VAA #PWR?
+L power:VAA #PWR016
 U 1 1 5C32D863
 P 9800 1050
-F 0 "#PWR?" H 9800 900 50  0001 C CNN
+F 0 "#PWR016" H 9800 900 50  0001 C CNN
 F 1 "VAA" V 9818 1177 50  0000 L CNN
 F 2 "" H 9800 1050 50  0001 C CNN
 F 3 "" H 9800 1050 50  0001 C CNN
@@ -1025,10 +1017,10 @@ F 3 "" H 9800 1050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VAA #PWR?
+L power:VAA #PWR018
 U 1 1 5C32DB4E
 P 10050 5750
-F 0 "#PWR?" H 10050 5600 50  0001 C CNN
+F 0 "#PWR018" H 10050 5600 50  0001 C CNN
 F 1 "VAA" H 10050 5900 50  0000 C CNN
 F 2 "" H 10050 5750 50  0001 C CNN
 F 3 "" H 10050 5750 50  0001 C CNN
@@ -1037,4 +1029,100 @@ F 3 "" H 10050 5750 50  0001 C CNN
 $EndComp
 Text Notes 5350 3850 2    50   ~ 0
 Resistor values are for VAA = 8.46 V (6 V AC transformer output).
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5C39FB43
+P 1500 7250
+F 0 "H2" H 1600 7255 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1600 7210 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1500 7250 50  0001 C CNN
+F 3 "~" H 1500 7250 50  0001 C CNN
+	1    1500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5C3A052D
+P 1850 7250
+F 0 "H5" H 1950 7255 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1950 7210 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1850 7250 50  0001 C CNN
+F 3 "~" H 1850 7250 50  0001 C CNN
+	1    1850 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 5C3A05AB
+P 2200 7250
+F 0 "H8" H 2300 7255 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2300 7210 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 2200 7250 50  0001 C CNN
+F 3 "~" H 2200 7250 50  0001 C CNN
+	1    2200 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5C3A0B33
+P 1500 7550
+F 0 "H3" H 1600 7555 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1600 7510 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1500 7550 50  0001 C CNN
+F 3 "~" H 1500 7550 50  0001 C CNN
+	1    1500 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5C3A0BC8
+P 1850 7550
+F 0 "H6" H 1950 7555 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1950 7510 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1850 7550 50  0001 C CNN
+F 3 "~" H 1850 7550 50  0001 C CNN
+	1    1850 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5C3A0DE0
+P 2200 6900
+F 0 "H7" H 2300 6905 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2300 6860 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 2200 6900 50  0001 C CNN
+F 3 "~" H 2200 6900 50  0001 C CNN
+	1    2200 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5C3A0E69
+P 1850 6900
+F 0 "H4" H 1950 6905 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1950 6860 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1850 6900 50  0001 C CNN
+F 3 "~" H 1850 6900 50  0001 C CNN
+	1    1850 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5C3A0EF4
+P 1500 6900
+F 0 "H1" H 1600 6905 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1600 6860 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1500 6900 50  0001 C CNN
+F 3 "~" H 1500 6900 50  0001 C CNN
+	1    1500 6900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1500 7000
+NoConn ~ 1850 7000
+NoConn ~ 2200 7000
+NoConn ~ 1850 7650
+NoConn ~ 1500 7650
+NoConn ~ 1500 7350
+NoConn ~ 1850 7350
+NoConn ~ 2200 7350
 $EndSCHEMATC
